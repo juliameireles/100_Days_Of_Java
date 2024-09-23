@@ -4,6 +4,9 @@ import java.text.MessageFormat;
 public class FormattingMessage {
     public static void main(String[] args){
 
+    System.out.println("=========FORMATANDO MENSAGEM SEM FUNÇÃO=======");
+    System.out.println("\n");
+
     String message = "Hey {0}, you got {1} messages, press {2} to start listening all of them";
 
     String result = MessageFormat.format(message, "Gabriela","6","space");
@@ -13,6 +16,7 @@ public class FormattingMessage {
      System.out.println("\n");
 
     System.out.println("=========FORMATANDO MENSAGEM USANDO FUNÇÃO=======");
+    System.out.println("\n");
 
   showTheMessage("Luana","New York","20");
     }
